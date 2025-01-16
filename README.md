@@ -1,6 +1,6 @@
-# Dating App Backend
+# Marriage Matchmaking App Backend
 
-A FastAPI-based backend for a dating application with user management and matching functionality.
+A FastAPI-based backend for a marriage matchmaking application with user management and matching functionality.
 
 ## Features
 - User registration and management (CRUD operations)
@@ -19,7 +19,7 @@ A FastAPI-based backend for a dating application with user management and matchi
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd dating-app-backend
+cd marriage-matchmaking-app-backend
 ```
 
 2. Create and activate a virtual environment:
