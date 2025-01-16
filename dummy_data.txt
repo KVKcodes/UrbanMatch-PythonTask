@@ -1,0 +1,71 @@
+# User 1 - John
+curl -X POST "http://localhost:8000/users/" \
+-H "Content-Type: application/json" \
+-d '{
+    "name": "John Smith",
+    "age": 28,
+    "gender": "male",
+    "email": "john@example.com",
+    "city": "New York",
+    "interests": ["sports", "music", "travel"]
+}'
+
+# User 2 - Sarah
+curl -X POST "http://localhost:8000/users/" \
+-H "Content-Type: application/json" \
+-d '{
+    "name": "Sarah Johnson",
+    "age": 25,
+    "gender": "female",
+    "email": "sarah@example.com",
+    "city": "New York",
+    "interests": ["art", "music", "cooking"]
+}'
+
+# User 3 - Michael
+curl -X POST "http://localhost:8000/users/" \
+-H "Content-Type: application/json" \
+-d '{
+    "name": "Michael Brown",
+    "age": 30,
+    "gender": "male",
+    "email": "michael@example.com",
+    "city": "Boston",
+    "interests": ["reading", "hiking", "photography"]
+}'
+
+# User 4 - Emily
+curl -X POST "http://localhost:8000/users/" \
+-H "Content-Type: application/json" \
+-d '{
+    "name": "Emily Davis",
+    "age": 27,
+    "gender": "female",
+    "email": "emily@example.com",
+    "city": "Boston",
+    "interests": ["travel", "yoga", "cooking"]
+}'
+
+# User 5 - David
+curl -X POST "http://localhost:8000/users/" \
+-H "Content-Type: application/json" \
+-d '{
+    "name": "David Wilson",
+    "age": 32,
+    "gender": "male",
+    "email": "david@example.com",
+    "city": "Chicago",
+    "interests": ["music", "movies", "sports"]
+}'
+
+# User 6 - Jessica
+curl -X POST "http://localhost:8000/users/" \
+-H "Content-Type: application/json" \
+-d '{
+    "name": "Jessica Lee",
+    "age": 29,
+    "gender": "female",
+    "email": "jessica@example.com",
+    "city": "Chicago",
+    "interests": ["dancing", "photography", "travel"]
+}'
